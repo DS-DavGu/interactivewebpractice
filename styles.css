@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 16px; /* 요소 사이 간격 */
+  justify-content: center; /* 가운데 정렬 */
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background: #89f;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3열로 나눔 */
+  gap: 16px;
+}
+.grid-item {
+  background: #f7a;
+  height: 80px;
+}
