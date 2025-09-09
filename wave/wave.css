@@ -1,0 +1,37 @@
+body {
+  background: #f5fafd;
+  color: #234;
+  font-family: 'Pretendard', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin: 2rem 0 0.5rem 0;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  color: #2273bc;
+}
+
+.canvas-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-height: 300px;
+  padding: 2rem 0;
+}
+
+#waveCanvas {
+  background: #bde0fe;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(80,120,200,0.15);
+  border: 2px solid #a2c7e7;
+  width: 1200px;
+  height: 600px;
+  display: block;
+}
